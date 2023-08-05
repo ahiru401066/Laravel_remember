@@ -10,6 +10,7 @@
         <h1>Blog Name</h1>
         <a href="/posts/create">create</a>
         <div class='posts'>
+            <h1>カテゴリー</h1>
             @foreach ($posts as $post)
                 <div class='post'>
                     <a href="/posts/{{ $post->id }}"><h2 class='title'>{{ $post->title }}</h2></a>
